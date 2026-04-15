@@ -4,26 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>HABI LABS</title>
+
+  <link rel="icon" href="/habi.ico" type="image/x-icon">
   <link rel="stylesheet" href="/css/styles-page.css" />
 </head>
+
 <body>
   <div id="overlay"></div>
-  <div class="top-bar-wrap">
-    <header class="top-bar">
-      <button id="menuToggle" class="icon" aria-label="Меню">&#9776;</button>
-      <div class="logo" id="logo">HABI LABS</div>
-    </header>
-  </div>
+
+  <header class="top-bar">
+    <button id="menuToggle" class="icon">&#9776;</button>
+
+    <div class="logo" id="logo">
+      <img src="/images/hll.jpg" alt="HABI LABS">
+    </div>
+  </header>
+
   <main>
     <div class="cards">
-      <div class="card poem">
+
+      <div class="card">
+        <h2>HABI ROBOT®</h2>
         <p>
-          HABI ROBOT®<br>
-          Облачный робот (система) поддержки клиентов для специалистов и клиник<br>
-          Для психологов, наркологов, коучей, докторов и клиник.<br><br>
-          <strong>Создается HABI LABS | 2026</strong>
+          Облачная система поддержки клиентов для специалистов и клиник.<br><br>
+          Для психологов, наркологов, коучей, докторов и клиник.
         </p>
       </div>
+
+      <div class="card">
+        <h2>Что это?</h2>
+        <p>
+          HABI помогает специалистам выстраивать сопровождение клиентов
+          в темах поведения, состояния и зависимостей.
+        </p>
+      </div>
+
       <div class="card footer-card">
         <p>
           <a href="/html/privacy.html">Политика конфиденциальности</a><br>
@@ -31,9 +46,12 @@
           © 2026 HABI LABS
         </p>
       </div>
+
     </div>
   </main>
-  <iframe id="sidebar" src="/html/menu-public.html" class="hidden" title="Меню"></iframe>
+
+  <iframe id="sidebar" src="/html/menu-public.html" class="hidden"></iframe>
+
   <script src="/js/script.js"></script>
 </body>
 </html>
